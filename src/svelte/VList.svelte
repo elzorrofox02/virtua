@@ -231,7 +231,7 @@
         {horizontal}
         resizer={virtualizer[OBSERVE_ITEM_RESIZE]}
       >
-        <slot {item} />
+        <slot {item} {index} />
       </ListItem>
     {/each}
   </div>
